@@ -155,6 +155,11 @@ Lastly, recompile the admin panel of your Strapi project.
 npm run build
 ```
 
+## Acknowledgements
+
+- [Strapi Google Maps](https://github.com/amicaldo/strapi-google-maps)
+  - This is for all the contributors who made the original plugin.
+
 ## Step by step migration
 
 - Design system: https://design-system-git-main-strapijs.vercel.app/?path=/docs/getting-started-migration-guides-v1-to-v2--docs
