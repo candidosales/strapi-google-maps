@@ -40,7 +40,7 @@ You can configure this plugin inside your Strapi dashboard's settings tab (e.g. 
 You just need to install the `strapi-google-maps` package via npm, at the root of your strapi project.
 
 ```bash
-npm i @candido-sales/strapi-google-maps
+npm i @candidosales/strapi-google-maps
 ```
 
 **To make Google Maps work, you should take a look at the next section.**
@@ -123,7 +123,7 @@ Then navigate into this plugin's directory.
 
 ```bash
 cd ./src/plugins
-git clone https://github.com/candido-sales/strapi-google-maps.git
+git clone https://github.com/candidosales/strapi-google-maps.git
 cd ./strapi-google-maps
 ```
 
