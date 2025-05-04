@@ -171,3 +171,9 @@ npm run build
 cd ./src/plugins/strapi-google-maps
 npx yalc add --link strapi-google-maps && npm install
 ```
+
+## Troubleshooting
+
+### Error: Could not find Custom Field: plugin::google-maps.location-picker
+
+Find all places with `plugin::google-maps.location-picker` and replace with `plugin::strapi-google-maps.location-picker`
