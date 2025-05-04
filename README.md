@@ -1,6 +1,6 @@
 # 🚀🗺️ Strapi Google Maps
 
-![Preview](https://github.com/amicaldo/strapi-google-maps/blob/main/pictures/preview.png?raw=true)
+![Preview](https://github.com/candido-sales/strapi-google-maps/blob/main/pictures/preview.png?raw=true)
 
 A Strapi plugin allowing you to implement a Google Maps custom field into your content-types, which can be used to pick and retrieve locations.
 
@@ -28,7 +28,7 @@ The API response of a Strapi content-type implementing this google-maps custom f
 
 You can configure this plugin inside your Strapi dashboard's settings tab (e.g. to enter your API key).
 
-![Configuration](https://github.com/amicaldo/strapi-google-maps/blob/main/pictures/configuration.png?raw=true)
+![Configuration](https://github.com/candido-sales/strapi-google-maps/blob/main/pictures/configuration.png?raw=true)
 
 ## ❗ Requirements
 
@@ -40,10 +40,10 @@ You can configure this plugin inside your Strapi dashboard's settings tab (e.g. 
 You just need to install the `strapi-google-maps` package via npm, at the root of your strapi project.
 
 ```bash
-npm i @amicaldo/strapi-google-maps
+npm i @candido-sales/strapi-google-maps
 
 # IMPORTANT: For Strapi versions before 4.11.0 install an older version instead:
-npm i @amicaldo/strapi-google-maps@1.0.4
+npm i @candido-sales/strapi-google-maps@1.0.4
 ```
 
 **To make Google Maps work, you should take a look at the next section.**
@@ -126,7 +126,7 @@ Then navigate into this plugin's directory.
 
 ```bash
 cd ./src/plugins
-git clone https://github.com/amicaldo/strapi-google-maps.git
+git clone https://github.com/candido-sales/strapi-google-maps.git
 cd ./strapi-google-maps
 ```
 
