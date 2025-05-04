@@ -139,7 +139,7 @@ From your project's root directory, enable the plugin inside `./config/plugins.j
 ```js
 module.exports = {
   // ...
-  'google-maps': {
+  'strapi-google-maps': {
     enabled: true,
     resolve: './src/plugins/strapi-google-maps',
   },
@@ -155,7 +155,7 @@ Lastly, recompile the admin panel of your Strapi project.
 npm run build
 ```
 
-## Migration
+## Step by step migration
 
 - Design system: https://design-system-git-main-strapijs.vercel.app/?path=/docs/getting-started-migration-guides-v1-to-v2--docs
 - https://docs.strapi.io/cms/plugins-development/guides/pass-data-from-server-to-admin
@@ -163,5 +163,6 @@ npm run build
 ## Run locally
 
 ```bash
+cd ./src/plugins/strapi-google-maps
 npx yalc add --link strapi-google-maps && npm install
 ```
