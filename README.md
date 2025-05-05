@@ -116,6 +116,11 @@ export default [
 ];
 ```
 
+## Features
+
+- Default latitude and longitude;
+- Google Maps API key can be set in the environment variables (`GOOGLE_MAPS_API_KEY`);
+
 ## 👨‍💻 Manual Installation (not recommended)
 
 Navigate into your Strapi's plugins folder and clone this repository.
