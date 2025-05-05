@@ -95,7 +95,7 @@ export default function Input({
 
     // If the config is set and the value is not set, set the focus point to the default latitude and longitude
     useEffect(() => {
-        if (config && !value) {
+        if (config?.defaultLatitude && config?.defaultLongitude && !value) {
             setFocusPoint({
                 lat: parseFloat(config.defaultLatitude),
                 lng: parseFloat(config.defaultLongitude),
